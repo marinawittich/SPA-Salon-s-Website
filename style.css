@@ -1,0 +1,266 @@
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color:#b9c0ac;
+}
+
+.container{
+    margin-top: 50px;
+    background-color: #f5ece5;
+    box-shadow: 1px 1px 19px 6px #778f71;
+    z-index: -1;
+}
+.picture-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.photo1{
+    width: 100%;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+.header{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+    display: none
+}
+.fw-normal{
+    justify-content: center;
+    display: none;
+}
+.circle{
+    margin-left: 40px;
+    border: 2px solid #778f71;
+    box-shadow: 1px 1px 5px 2px #778f71;
+    padding: 20px;
+    border-radius: 25%;
+    background-color: #fbf2ec;
+}
+
+.fw-normal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.position{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.header-green{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    color:#ffff;
+}
+.green-container{
+    display: block;
+    width: 400px;
+}
+.green{
+background-color: #778f71;
+margin-top: 50px;
+padding: 20px;
+border-top-right-radius:70px;
+border-bottom-left-radius:70px;
+box-shadow: 1px 1px 5px 2px #778f71;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+}
+.text-services{
+    align-self: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    margin: 20px;
+}
+.header-services{
+    font-size: 30px;
+    color: white;
+}
+.carousel{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+.photo-offer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.row1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.photo-small{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 95%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.textInput{
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+}
+.textInput1{
+    width: 800px;
+    padding: 5px;
+    font-size: 20px;
+    height: 200px;
+}
+label{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #778f71;
+    color: white;
+    width: 800px;
+    box-shadow: 1px 1px 5px 2px #778f71;
+}
+.footer-container{
+    display:flex;
+    justify-content: center;
+    width:102%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    background-color: #778f71;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 2px #778f71;
+}
+
+@media all and (max-width:1400px){
+    .img1{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media all and (max-width:1024px){
+    .img1{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width:850px){
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+    .text-services{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .textInput1{
+        width: 700px;
+    }
+    .btn{
+        width: 700px;
+    }
+    
+   
+}
+@media all and (max-width:800px){
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+    .text-services{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .textInput1{
+        width: 700px;
+    }
+    .btn{
+        width: 700px;
+    }
+    .categoryImage{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+      }
+   
+}
+
+
+
+@media all and (max-width:500px){
+    .textInput1{
+        width: 350px;
+    }
+    .btn{
+        width: 350px;
+    }
+    img{
+        width: 90px;
+    }
+    .fw-normal{
+        font-size: 10px;
+    }
+    
+    .services{
+        flex-direction: column;
+        border: 1px solid #fbf2ec;
+        border-radius: 10px;
+        
+    }
+    .text-services{
+        font-size: 15px;
+    }
+    .textInput{
+        width: 350px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .rounded-circle{
+        width: 200px;
+    }
+    .footer-container{
+        font-size: 15px;
+    }
+   
+}
+
+
+
